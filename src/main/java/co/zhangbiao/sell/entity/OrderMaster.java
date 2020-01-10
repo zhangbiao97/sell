@@ -3,6 +3,7 @@ package co.zhangbiao.sell.entity;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.math.BigDecimal;
 import java.util.Date;
 
 @Table(name = "order_master")
@@ -20,11 +21,11 @@ public class OrderMaster {
 
     private String buyerOpenid;
 
-    private double orderAmount;
+    private BigDecimal orderAmount;
 
-    private long orderStatus;
+    private Integer orderStatus;
 
-    private long payStatus;
+    private Integer payStatus;
 
     private Date createTime;
 
@@ -71,27 +72,27 @@ public class OrderMaster {
         this.buyerOpenid = buyerOpenid;
     }
 
-    public double getOrderAmount() {
+    public BigDecimal getOrderAmount() {
         return orderAmount;
     }
 
-    public void setOrderAmount(double orderAmount) {
+    public void setOrderAmount(BigDecimal orderAmount) {
         this.orderAmount = orderAmount;
     }
 
-    public long getOrderStatus() {
+    public Integer getOrderStatus() {
         return orderStatus;
     }
 
-    public void setOrderStatus(long orderStatus) {
+    public void setOrderStatus(Integer orderStatus) {
         this.orderStatus = orderStatus;
     }
 
-    public long getPayStatus() {
+    public Integer getPayStatus() {
         return payStatus;
     }
 
-    public void setPayStatus(long payStatus) {
+    public void setPayStatus(Integer payStatus) {
         this.payStatus = payStatus;
     }
 

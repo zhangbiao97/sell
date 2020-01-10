@@ -1,6 +1,7 @@
 package co.zhangbiao.sell.entity;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.Date;
 
 @Table(name = "order_detail")
@@ -16,9 +17,9 @@ public class OrderDatail {
 
     private String productName;
 
-    private double productPrice;
+    private BigDecimal productPrice;
 
-    private long productQuantity;
+    private Integer productQuantity;
 
     private String productIcon;
 
@@ -58,19 +59,19 @@ public class OrderDatail {
         this.productName = productName;
     }
 
-    public double getProductPrice() {
+    public BigDecimal getProductPrice() {
         return productPrice;
     }
 
-    public void setProductPrice(double productPrice) {
+    public void setProductPrice(BigDecimal productPrice) {
         this.productPrice = productPrice;
     }
 
-    public long getProductQuantity() {
+    public Integer getProductQuantity() {
         return productQuantity;
     }
 
-    public void setProductQuantity(long productQuantity) {
+    public void setProductQuantity(Integer productQuantity) {
         this.productQuantity = productQuantity;
     }
 

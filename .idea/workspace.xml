@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49c097a4-ed5a-4207-a028-795961924989" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderDatail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderDatail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderMaster.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sell" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sell" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sell" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sell: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\workspace\idea-workspace\sell\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Development\maven-repository" />
+        <option name="mavenHome" value="E:/Development/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="E:\Development\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W6xfXTQsoCWNc7ihVkmeELrlhb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="co.zhangbiao.sell.SellApplicationTests" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="co.zhangbiao.sell.SellApplicationTests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.zhangbiao.sell.service.impl" />
+      <recent name="co.zhangbiao.sell.repository" />
+      <recent name="co.zhangbiao.sell.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="co.zhangbiao.sell.SellApplicationTests" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.zhangbiao.sell.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SellApplication">
+    <configuration name="CategoryServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.CategoryServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryServiceImplTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.CategoryServiceImplTest" />
+      <option name="METHOD_NAME" value="findOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductInfoRepositoryTest.findByProductStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.repository" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.repository.ProductInfoRepositoryTest" />
+      <option name="METHOD_NAME" value="findByProductStatus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductInfoRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.repository" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.repository.ProductInfoRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductInfoServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.impl.ProductInfoServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SellApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sell" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="co.zhangbiao.sell.SellApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CategoryServiceImplTest" />
+      <item itemvalue="JUnit.CategoryServiceImplTest.findOne" />
+      <item itemvalue="JUnit.ProductInfoRepositoryTest.save" />
+      <item itemvalue="JUnit.ProductInfoRepositoryTest.findByProductStatus" />
+      <item itemvalue="JUnit.ProductInfoServiceImplTest" />
+      <item itemvalue="Spring Boot.SellApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductInfoServiceImplTest" />
+        <item itemvalue="JUnit.ProductInfoRepositoryTest.findByProductStatus" />
+        <item itemvalue="JUnit.ProductInfoRepositoryTest.save" />
+        <item itemvalue="JUnit.CategoryServiceImplTest" />
+        <item itemvalue="JUnit.CategoryServiceImplTest.findOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49c097a4-ed5a-4207-a028-795961924989" name="Default Changelist" comment="" />
+      <created>1578483949779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578483949779</updated>
+      <workItem from="1578483955567" duration="7869000" />
+      <workItem from="1578562135864" duration="17912000" />
+      <workItem from="1578653274898" duration="1538000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1578484244893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578484244893</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1578655139783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578655139783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="350" y="0" key="#Intentions" timestamp="1578577772906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="0" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1578577772906" />
+    <state x="137" y="16" width="1099" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578565801226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="16" width="1099" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578565801226" />
+    <state x="407" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1578583922178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="407" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578583922178" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1578655135656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578655135656" />
+    <state x="413" y="49" key="FileChooserDialogImpl" timestamp="1578565981431">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="49" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578565981431" />
+    <state width="1313" height="367" key="GridCell.Tab.0.bottom" timestamp="1578586372920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="367" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578586372920" />
+    <state width="1313" height="367" key="GridCell.Tab.0.center" timestamp="1578586372919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="367" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578586372919" />
+    <state width="1313" height="367" key="GridCell.Tab.0.left" timestamp="1578586372919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="367" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578586372919" />
+    <state width="1313" height="367" key="GridCell.Tab.0.right" timestamp="1578586372919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="367" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578586372919" />
+    <state width="1313" height="367" key="GridCell.Tab.1.bottom" timestamp="1578586372920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="367" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578586372920" />
+    <state width="1313" height="367" key="GridCell.Tab.1.center" timestamp="1578586372920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="367" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578586372920" />
+    <state width="1313" height="367" key="GridCell.Tab.1.left" timestamp="1578586372920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="367" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578586372920" />
+    <state width="1313" height="367" key="GridCell.Tab.1.right" timestamp="1578586372920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="367" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578586372920" />
+    <state width="264" height="550" key="HiddenNamespacesPopup" timestamp="1578565933014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="264" height="550" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1578565933014" />
+    <state x="71" y="0" key="SettingsEditor" timestamp="1578489577595">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="71" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578489577595" />
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2" timestamp="1578655147831">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578655147831" />
+    <state x="315" y="151" key="com.intellij.ide.util.TipDialog" timestamp="1578653276473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="315" y="151" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578653276473" />
+    <state x="421" y="37" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578581946929">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="421" y="37" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1578581946929" />
+    <state x="262" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1578583564784">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578583564784" />
+  </component>
+</project>
