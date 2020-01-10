@@ -1,13 +1,13 @@
 package co.zhangbiao.sell;
 
-import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
-class SellApplicationTests {
+public class SellApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+
 
 }
