@@ -1,18 +1,18 @@
-package co.zhangbiao.sell.entity;
+package co.zhangbiao.sell.dto;
 
+import co.zhangbiao.sell.entity.OrderDetail;
 import co.zhangbiao.sell.enums.OrderStatusEnum;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.List;
 
-@Table(name = "order_master")
-@Entity
-public class OrderMaster {
+/**
+ * Create By ZhangBiao
+ * 2020-01-10
+ */
+public class OrderDTO {
 
-    @Id
     private String orderId;
 
     private String buyerName;
@@ -33,6 +33,7 @@ public class OrderMaster {
 
     private Date updateTime;
 
+    private List<OrderDetail> orderDetails;
 
     public String getOrderId() {
         return orderId;
@@ -114,19 +115,11 @@ public class OrderMaster {
         this.updateTime = updateTime;
     }
 
-    @Override
-    public String toString() {
-        return "OrderMaster{" +
-                "orderId='" + orderId + '\'' +
-                ", buyerName='" + buyerName + '\'' +
-                ", buyerPhone='" + buyerPhone + '\'' +
-                ", buyerAddress='" + buyerAddress + '\'' +
-                ", buyerOpenid='" + buyerOpenid + '\'' +
-                ", orderAmount=" + orderAmount +
-                ", orderStatus=" + orderStatus +
-                ", payStatus=" + payStatus +
-                ", createTime=" + createTime +
-                ", updateTime=" + updateTime +
-                '}';
+    public List<OrderDetail> getOrderDetails() {
+        return orderDetails;
+    }
+
+    public void setOrderDetails(List<OrderDetail> orderDetails) {
+        this.orderDetails = orderDetails;
     }
 }

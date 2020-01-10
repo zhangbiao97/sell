@@ -1,5 +1,6 @@
 package co.zhangbiao.sell.service;
 
+import co.zhangbiao.sell.dto.CartDTO;
 import co.zhangbiao.sell.entity.ProductInfo;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -26,5 +27,19 @@ public interface ProductInfoService {
     Page<ProductInfo> findAll(Pageable pageable);
 
     ProductInfo save(ProductInfo productInfo);
+
+    /**
+     * 加库存
+     *
+     * @param cartDTOS
+     */
+    void increaseStock(List<CartDTO> cartDTOS);
+
+    /**
+     * 减库存
+     *
+     * @param cartDTOS
+     */
+    void decreaseStock(List<CartDTO> cartDTOS);
 
 }

@@ -6,7 +6,7 @@ import java.util.Date;
 
 @Table(name = "order_detail")
 @Entity
-public class OrderDatail {
+public class OrderDetail {
 
     @Id
     private String detailId;

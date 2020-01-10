@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c097a4-ed5a-4207-a028-795961924989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderDatail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderDatail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderDatail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/ProductInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/ProductInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/impl/ProductInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/impl/ProductInfoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,39 +117,8 @@
       <recent name="co.zhangbiao.sell.service.impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SellApplication">
-    <configuration name="CategoryServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.zhangbiao.sell.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service" />
-      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.CategoryServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryServiceImplTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.zhangbiao.sell.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service" />
-      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.CategoryServiceImplTest" />
-      <option name="METHOD_NAME" value="findOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductInfoRepositoryTest.findByProductStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderServiceImplTest.cancel">
+    <configuration name="OrderDetailRepositoryTest.findByOrOrderId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sell" />
       <extension name="coverage">
         <pattern>
@@ -155,30 +127,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="co.zhangbiao.sell.repository" />
-      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.repository.ProductInfoRepositoryTest" />
-      <option name="METHOD_NAME" value="findByProductStatus" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.repository.OrderDetailRepositoryTest" />
+      <option name="METHOD_NAME" value="findByOrOrderId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductInfoRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.zhangbiao.sell.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.repository" />
-      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.repository.ProductInfoRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductInfoServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderServiceImplTest.cancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sell" />
       <extension name="coverage">
         <pattern>
@@ -187,8 +143,57 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.impl.ProductInfoServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="cancel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.findList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="findList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.impl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="findOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,20 +209,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CategoryServiceImplTest" />
-      <item itemvalue="JUnit.CategoryServiceImplTest.findOne" />
-      <item itemvalue="JUnit.ProductInfoRepositoryTest.save" />
-      <item itemvalue="JUnit.ProductInfoRepositoryTest.findByProductStatus" />
-      <item itemvalue="JUnit.ProductInfoServiceImplTest" />
       <item itemvalue="Spring Boot.SellApplication" />
+      <item itemvalue="JUnit.OrderDetailRepositoryTest.findByOrOrderId" />
+      <item itemvalue="JUnit.OrderServiceImplTest.create" />
+      <item itemvalue="JUnit.OrderServiceImplTest.findOne" />
+      <item itemvalue="JUnit.OrderServiceImplTest.findList" />
+      <item itemvalue="JUnit.OrderServiceImplTest.cancel" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductInfoServiceImplTest" />
-        <item itemvalue="JUnit.ProductInfoRepositoryTest.findByProductStatus" />
-        <item itemvalue="JUnit.ProductInfoRepositoryTest.save" />
-        <item itemvalue="JUnit.CategoryServiceImplTest" />
-        <item itemvalue="JUnit.CategoryServiceImplTest.findOne" />
+        <item itemvalue="JUnit.OrderServiceImplTest.cancel" />
+        <item itemvalue="JUnit.OrderServiceImplTest.findList" />
+        <item itemvalue="JUnit.OrderServiceImplTest.findOne" />
+        <item itemvalue="JUnit.OrderServiceImplTest.create" />
+        <item itemvalue="JUnit.OrderDetailRepositoryTest.findByOrOrderId" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +250,7 @@
       <updated>1578483949779</updated>
       <workItem from="1578483955567" duration="7869000" />
       <workItem from="1578562135864" duration="17912000" />
-      <workItem from="1578653274898" duration="1538000" />
+      <workItem from="1578653274898" duration="13227000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1578484244893</created>
@@ -261,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578655139783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1578655381450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578655381450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,34 +293,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="16" width="1099" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1578565801226" />
-    <state x="407" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1578583922178">
+    <state x="407" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1578661940919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="407" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578583922178" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1578655135656">
+    <state x="407" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578661940919" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1578655379737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578655135656" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578655379737" />
     <state x="413" y="49" key="FileChooserDialogImpl" timestamp="1578565981431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="49" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578565981431" />
-    <state width="1313" height="367" key="GridCell.Tab.0.bottom" timestamp="1578586372920">
+    <state width="1313" height="356" key="GridCell.Tab.0.bottom" timestamp="1578670207134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="367" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578586372920" />
-    <state width="1313" height="367" key="GridCell.Tab.0.center" timestamp="1578586372919">
+    <state width="1313" height="356" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578670207134" />
+    <state width="1313" height="356" key="GridCell.Tab.0.center" timestamp="1578670207134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="367" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578586372919" />
-    <state width="1313" height="367" key="GridCell.Tab.0.left" timestamp="1578586372919">
+    <state width="1313" height="356" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578670207134" />
+    <state width="1313" height="356" key="GridCell.Tab.0.left" timestamp="1578670207134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="367" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578586372919" />
-    <state width="1313" height="367" key="GridCell.Tab.0.right" timestamp="1578586372919">
+    <state width="1313" height="356" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578670207134" />
+    <state width="1313" height="356" key="GridCell.Tab.0.right" timestamp="1578670207134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1313" height="367" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578586372919" />
+    <state width="1313" height="356" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578670207134" />
     <state width="1313" height="367" key="GridCell.Tab.1.bottom" timestamp="1578586372920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -333,18 +345,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="71" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578489577595" />
-    <state x="175" y="36" key="Vcs.Push.Dialog.v2" timestamp="1578655147831">
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2" timestamp="1578655384204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578655147831" />
+    <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578655384204" />
     <state x="315" y="151" key="com.intellij.ide.util.TipDialog" timestamp="1578653276473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="315" y="151" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578653276473" />
-    <state x="421" y="37" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578581946929">
+    <state x="421" y="37" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578664805543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="421" y="37" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1578581946929" />
+    <state x="421" y="37" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1578664805543" />
     <state x="262" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1578583564784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
