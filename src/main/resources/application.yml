@@ -2,11 +2,13 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: zhangbiao
-    url: jdbc:mysql://123.56.9.64:3306/sell?characterEncoding=utf-8&useSSL=false
+    password: 123456
+    url: jdbc:mysql://192.168.204.136:3306/sell?characterEncoding=utf8&useSSL=false
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+  jackson:
+    default-property-inclusion: non_null
 server:
   context-path: /sell

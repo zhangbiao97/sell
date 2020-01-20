@@ -2,6 +2,9 @@ package co.zhangbiao.sell.dto;
 
 import co.zhangbiao.sell.entity.OrderDetail;
 import co.zhangbiao.sell.enums.OrderStatusEnum;
+import co.zhangbiao.sell.utils.serializer.DateToLongSerializer;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -11,6 +14,7 @@ import java.util.List;
  * Create By ZhangBiao
  * 2020-01-10
  */
+//@JsonInclude(value = JsonInclude.Include.NON_NULL)
 public class OrderDTO {
 
     private String orderId;
@@ -29,8 +33,10 @@ public class OrderDTO {
 
     private Integer payStatus;
 
+    @JsonSerialize(using = DateToLongSerializer.class)
     private Date createTime;
 
+    @JsonSerialize(using = DateToLongSerializer.class)
     private Date updateTime;
 
     private List<OrderDetail> orderDetails;

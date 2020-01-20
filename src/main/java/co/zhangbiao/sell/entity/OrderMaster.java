@@ -33,7 +33,6 @@ public class OrderMaster {
 
     private Date updateTime;
 
-
     public String getOrderId() {
         return orderId;
     }

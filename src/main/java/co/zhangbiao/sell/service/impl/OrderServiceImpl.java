@@ -147,13 +147,48 @@ public class OrderServiceImpl implements OrderService {
         return orderDTO;
     }
 
+    @Transactional
     @Override
     public OrderDTO finish(OrderDTO orderDTO) {
-        return null;
+        // 判断订单状态
+        if (!orderDTO.getOrderStatus().equals(OrderStatusEnum.NEW.getCode())) {
+            logger.error("【完结订单】订单状态不正确, orderId={}, orderStatus={}", orderDTO.getOrderId(), orderDTO.getOrderStatus());
+            throw new SellException(ResultEnum.ORDER_STATUS_ERROR);
+        }
+        // 修改订单状态
+        orderDTO.setOrderStatus(OrderStatusEnum.FINISHED.getCode());
+        OrderMaster orderMaster = new OrderMaster();
+        BeanUtils.copyProperties(orderDTO, orderMaster);
+        OrderMaster updateResult = orderMasterRepository.save(orderMaster);
+        if (updateResult == null) {
+            logger.error("【完结订单】更新失败, orderMaster={}", orderMaster);
+            throw new SellException(ResultEnum.ORDER_UPDATE_FAIL);
+        }
+        return orderDTO;
     }
 
+    @Transactional
     @Override
     public OrderDTO paid(OrderDTO orderDTO) {
-        return null;
+        // 判断订单状态
+        if (!orderDTO.getOrderStatus().equals(OrderStatusEnum.NEW.getCode())) {
+            logger.error("【订单支付完成】订单状态不正确, orderId={}, orderStatus={}", orderDTO.getOrderId(), orderDTO.getOrderStatus());
+            throw new SellException(ResultEnum.ORDER_STATUS_ERROR);
+        }
+        // 判断支付状态
+        if (!orderDTO.getPayStatus().equals(PayStatusEnum.WAIT.getCode())) {
+            logger.error("【订单支付完成】订单支付状态不正确, orderDTO={}", orderDTO);
+            throw new SellException(ResultEnum.ORDER_PAY_STATUS_ERROR);
+        }
+        // 修改支付状态
+        orderDTO.setPayStatus(PayStatusEnum.SUCCESS.getCode());
+        OrderMaster orderMaster = new OrderMaster();
+        BeanUtils.copyProperties(orderDTO, orderMaster);
+        OrderMaster updateResult = orderMasterRepository.save(orderMaster);
+        if (updateResult == null) {
+            logger.error("【订单支付完成】更新失败, orderMaster={}", orderMaster);
+            throw new SellException(ResultEnum.ORDER_UPDATE_FAIL);
+        }
+        return orderDTO;
     }
 }

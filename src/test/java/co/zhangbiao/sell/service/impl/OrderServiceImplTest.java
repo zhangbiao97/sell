@@ -3,6 +3,8 @@ package co.zhangbiao.sell.service.impl;
 import co.zhangbiao.sell.SellApplicationTests;
 import co.zhangbiao.sell.dto.OrderDTO;
 import co.zhangbiao.sell.entity.OrderDetail;
+import co.zhangbiao.sell.enums.OrderStatusEnum;
+import co.zhangbiao.sell.enums.PayStatusEnum;
 import co.zhangbiao.sell.service.OrderService;
 import org.junit.Assert;
 import org.junit.Test;
@@ -59,9 +61,17 @@ public class OrderServiceImplTest extends SellApplicationTests {
 
     @Test
     public void finish() {
+        String orderId = "1578665151263147506";
+        OrderDTO orderDTO = orderService.findOne(orderId);
+        OrderDTO result = orderService.finish(orderDTO);
+        Assert.assertEquals(OrderStatusEnum.FINISHED.getCode(), result.getOrderStatus());
     }
 
     @Test
     public void paid() {
+        String orderId = "1578665151263147506";
+        OrderDTO orderDTO = orderService.findOne(orderId);
+        OrderDTO result = orderService.paid(orderDTO);
+        Assert.assertEquals(PayStatusEnum.SUCCESS.getCode(), result.getPayStatus());
     }
 }
