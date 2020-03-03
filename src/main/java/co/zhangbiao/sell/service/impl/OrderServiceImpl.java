@@ -13,6 +13,7 @@ import co.zhangbiao.sell.exception.SellException;
 import co.zhangbiao.sell.repository.OrderDetailRepository;
 import co.zhangbiao.sell.repository.OrderMasterRepository;
 import co.zhangbiao.sell.service.OrderService;
+import co.zhangbiao.sell.service.PayService;
 import co.zhangbiao.sell.service.ProductInfoService;
 import co.zhangbiao.sell.utils.KeyUtil;
 import org.slf4j.Logger;
@@ -49,7 +50,10 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private OrderMasterRepository orderMasterRepository;
 
-    @Transactional
+    @Autowired
+    private PayService payService;
+
+    @Transactional(rollbackFor = SellException.class)
     @Override
     public OrderDTO create(OrderDTO orderDTO) {
         String orderId = KeyUtil.genUniqueKey();
@@ -113,7 +117,7 @@ public class OrderServiceImpl implements OrderService {
         return result;
     }
 
-    @Transactional
+    @Transactional(rollbackFor = SellException.class)
     @Override
     public OrderDTO cancel(OrderDTO orderDTO) {
         OrderMaster orderMaster = new OrderMaster();
@@ -142,12 +146,12 @@ public class OrderServiceImpl implements OrderService {
 
         // 4、如果订单已支付，进行退款
         if (orderDTO.getPayStatus().equals(PayStatusEnum.SUCCESS.getCode())) {
-            //TODO
+            payService.refund(orderDTO);
         }
         return orderDTO;
     }
 
-    @Transactional
+    @Transactional(rollbackFor = SellException.class)
     @Override
     public OrderDTO finish(OrderDTO orderDTO) {
         // 判断订单状态
@@ -167,7 +171,7 @@ public class OrderServiceImpl implements OrderService {
         return orderDTO;
     }
 
-    @Transactional
+    @Transactional(rollbackFor = SellException.class)
     @Override
     public OrderDTO paid(OrderDTO orderDTO) {
         // 判断订单状态

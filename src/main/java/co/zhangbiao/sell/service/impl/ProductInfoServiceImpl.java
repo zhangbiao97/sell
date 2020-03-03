@@ -49,7 +49,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
         return productInfoRepository.save(productInfo);
     }
 
-    @Transactional
+    @Transactional(rollbackFor = SellException.class)
     @Override
     public void increaseStock(List<CartDTO> cartDTOS) {
         for (CartDTO cartDTO : cartDTOS) {
@@ -64,7 +64,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
         }
     }
 
-    @Transactional
+    @Transactional(rollbackFor = SellException.class)
     @Override
     public void decreaseStock(List<CartDTO> cartDTOS) {
         for (CartDTO cartDTO : cartDTOS) {

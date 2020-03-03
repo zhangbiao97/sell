@@ -13,5 +13,9 @@ spring:
 server:
   context-path: /sell
 wechat:
-  appId: wxf680b3a24675e2b8
+  # appId: wxf680b3a24675e2b8
+  appId:wxd898fcb01713c658
   secret: 829fa90dd46ec05dd9d70dab8f8053f4
+  mchId: 1483469312
+  mchKey: 098F6BCD4621D373CADE4E832627B4F6
+  keyPath: C:\Users\zhangbiao\Desktop\h5.p12
