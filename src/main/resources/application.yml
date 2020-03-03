@@ -12,4 +12,6 @@ spring:
     default-property-inclusion: non_null
 server:
   context-path: /sell
-  port: 443
+wechat:
+  appId: wxf680b3a24675e2b8
+  secret: 829fa90dd46ec05dd9d70dab8f8053f4

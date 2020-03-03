@@ -16,6 +16,7 @@ public enum OrderStatusEnum {
 
     private String message;
 
+
     OrderStatusEnum(Integer code, String message) {
         this.code = code;
         this.message = message;
