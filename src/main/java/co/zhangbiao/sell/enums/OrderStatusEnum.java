@@ -6,7 +6,7 @@ package co.zhangbiao.sell.enums;
  * Create By ZhangBiao
  * 2020-01-10
  */
-public enum OrderStatusEnum {
+public enum OrderStatusEnum implements CodeEnum {
 
     NEW(0, "新订单"),
     FINISHED(1, "完结"),
@@ -22,6 +22,7 @@ public enum OrderStatusEnum {
         this.message = message;
     }
 
+    @Override
     public Integer getCode() {
         return code;
     }

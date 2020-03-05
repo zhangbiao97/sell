@@ -29,14 +29,14 @@ public class ProductInfoServiceImplTest extends SellApplicationTests {
     @Test
     public void findUpAll() {
         List<ProductInfo> result = productInfoService.findUpAll();
-        Assert.assertNotEquals(0,result.size());
+        Assert.assertNotEquals(0, result.size());
     }
 
     @Test
     public void findAll() {
-        PageRequest pageRequest = new PageRequest(1,2);
+        PageRequest pageRequest = new PageRequest(1, 2);
         Page<ProductInfo> result = productInfoService.findAll(pageRequest);
-        Assert.assertNotEquals(0,result.getTotalElements());
+        Assert.assertNotEquals(0, result.getTotalElements());
     }
 
     @Test
@@ -46,11 +46,24 @@ public class ProductInfoServiceImplTest extends SellApplicationTests {
         productInfo.setProductStatus(ProductStatusEnum.UP.getCode());
         productInfo.setProductPrice(new BigDecimal(30));
         productInfo.setProductName("皮皮虾");
-        productInfo.setProductId(UUID.randomUUID().toString().substring(0,15));
+        productInfo.setProductId(UUID.randomUUID().toString().substring(0, 15));
         productInfo.setProductIcon("http://xxxxx.png");
         productInfo.setProductDescription("皮皮虾好吃！");
         productInfo.setCategoryType(1);
         ProductInfo result = productInfoService.save(productInfo);
         Assert.assertNotNull(result);
+    }
+
+    @Test
+    public void onSale() {
+        ProductInfo productInfo = productInfoService.onSale("8b7e945f-2c68-4");
+        Assert.assertEquals(ProductStatusEnum.UP.getCode(), productInfo.getProductStatusEnum().getCode());
+    }
+
+    @Test
+    public void offSale() {
+        ProductInfo productInfo = productInfoService.offSale("8b7e945f-2c68-4");
+        Assert.assertEquals(ProductStatusEnum.DOWN.getCode(),
+                productInfo.getProductStatusEnum().getCode());
     }
 }

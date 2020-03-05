@@ -6,7 +6,7 @@ package co.zhangbiao.sell.enums;
  * Create By ZhangBiao
  * 2020-01-09
  */
-public enum ProductStatusEnum {
+public enum ProductStatusEnum implements CodeEnum {
 
     UP(0, "在架"),
     DOWN(1, "下架");
@@ -20,6 +20,7 @@ public enum ProductStatusEnum {
         this.message = message;
     }
 
+    @Override
     public Integer getCode() {
         return code;
     }

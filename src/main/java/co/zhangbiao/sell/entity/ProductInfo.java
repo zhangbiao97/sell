@@ -1,5 +1,9 @@
 package co.zhangbiao.sell.entity;
 
+import co.zhangbiao.sell.enums.ProductStatusEnum;
+import co.zhangbiao.sell.utils.EnumUtil;
+import org.hibernate.annotations.DynamicUpdate;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -11,6 +15,7 @@ import java.util.Date;
  */
 @Table(name = "product_info")
 @Entity
+@DynamicUpdate
 public class ProductInfo {
 
     @Id
@@ -33,6 +38,12 @@ public class ProductInfo {
     private Date createTime;
 
     private Date updateTime;
+
+    public ProductStatusEnum getProductStatusEnum() {
+        ProductStatusEnum productStatusEnum = EnumUtil.getByCode(this.productStatus,
+                ProductStatusEnum.class);
+        return productStatusEnum;
+    }
 
     public String getProductId() {
         return productId;

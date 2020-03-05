@@ -6,7 +6,7 @@ package co.zhangbiao.sell.enums;
  * Create By ZhangBiao
  * 2020-01-10
  */
-public enum PayStatusEnum {
+public enum PayStatusEnum implements CodeEnum {
 
     WAIT(0,"等待支付"),
     SUCCESS(1,"支付成功");
@@ -20,6 +20,7 @@ public enum PayStatusEnum {
         this.message = message;
     }
 
+    @Override
     public Integer getCode() {
         return code;
     }

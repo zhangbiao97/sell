@@ -2,7 +2,10 @@ package co.zhangbiao.sell.dto;
 
 import co.zhangbiao.sell.entity.OrderDetail;
 import co.zhangbiao.sell.enums.OrderStatusEnum;
+import co.zhangbiao.sell.enums.PayStatusEnum;
+import co.zhangbiao.sell.utils.EnumUtil;
 import co.zhangbiao.sell.utils.serializer.DateToLongSerializer;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
@@ -40,6 +43,18 @@ public class OrderDTO {
     private Date updateTime;
 
     private List<OrderDetail> orderDetails;
+
+    @JsonIgnore
+    public OrderStatusEnum getOrderStatusEnum() {
+        OrderStatusEnum orderStatusEnum = EnumUtil.getByCode(this.orderStatus, OrderStatusEnum.class);
+        return orderStatusEnum;
+    }
+
+    @JsonIgnore
+    public PayStatusEnum getPayStatusEnum() {
+        PayStatusEnum payStatusEnum = EnumUtil.getByCode(this.payStatus, PayStatusEnum.class);
+        return payStatusEnum;
+    }
 
     public String getOrderId() {
         return orderId;
