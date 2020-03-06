@@ -14,7 +14,7 @@
                 </button>
                 <h4>
                     注意!
-                </h4> <strong>${msg}!</strong><a
+                </h4> <strong>${msg!'成功！'}</strong><a
                         href="${url}" class="alert-link">3s后自动跳转！</a>
             </div>
         </div>

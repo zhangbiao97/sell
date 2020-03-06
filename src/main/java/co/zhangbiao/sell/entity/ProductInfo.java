@@ -31,7 +31,7 @@ public class ProductInfo {
 
     private String productIcon;
 
-    private Integer productStatus;
+    private Integer productStatus = ProductStatusEnum.UP.getCode();
 
     private Integer categoryType;
 
