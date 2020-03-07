@@ -30,3 +30,7 @@ project:
     wechatMpAuthorize: http://zhangbiao.natapp1.cc
     wechatOpenAuthorize: http://zhangbiao.natapp1.cc
     sell: http://zhangbiao.natapp1.cc
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapping/*.xml

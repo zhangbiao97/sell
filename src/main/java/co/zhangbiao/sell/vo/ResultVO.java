@@ -1,12 +1,14 @@
 package co.zhangbiao.sell.vo;
 
+import java.io.Serializable;
+
 /**
  * HTTP请求返回的最外层对象
  * <p>
  * Create By ZhangBiao
  * 2020-01-09
  */
-public class ResultVO<T> {
+public class ResultVO<T> implements Serializable {
 
     /**
      * 错误码

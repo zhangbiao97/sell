@@ -3,6 +3,7 @@ package co.zhangbiao.sell.vo;
 import co.zhangbiao.sell.entity.ProductInfo;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -11,7 +12,7 @@ import java.util.List;
  * Create By ZhangBiao
  * 2020-01-09
  */
-public class ProductVO {
+public class ProductVO implements Serializable {
 
     @JsonProperty("name")
     private String categoryName;

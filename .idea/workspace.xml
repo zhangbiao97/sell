@@ -2,33 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c097a4-ed5a-4207-a028-795961924989" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/controller/SecKillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/mapper/ProductCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/RedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/SecKillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/impl/SecKillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ProductCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/zhangbiao/sell/mapper/ProductCategoryMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/aspect/SellerAuthorizeAspect.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/config/PayConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/config/WebSocketConfiguration.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/config/WechatConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/config/WechatOpenConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/constant/CookieConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/constant/RedisConstant.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/BuyerOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/BuyerProductController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/PayController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/SecKillController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/SellerCategoryController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/SellerOrderController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/SellerProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/SellerUserController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/WechatController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/WeixinController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/converter/OrderFormToOrderDTOConvert$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/converter/OrderFormToOrderDTOConvert.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/enums/CodeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/exception/SellerAuthorizeException.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/form/CategoryForm.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/form/OrderForm.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/form/ProductForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/handler/SellExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/mapper/ProductCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/properties/ProjectProperties.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/properties/WechatProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/repository/SellerInfoRepository.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/BuyerService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/PayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/PushMessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/RedisLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/SecKillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/SellerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/WebSocket.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/BuyerServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/PayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/PushMessageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/SecKillServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/SellerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/utils/CookieUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/utils/EnumUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/utils/JsonUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/utils/MathUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/utils/serializer/DateToLongSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ProductCategoryMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/static/api/ratings.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/static/api/seller.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/mp3/song.mp3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/templates/category/index.ftl" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/templates/category/list.ftl" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/templates/common/error.ftl" afterDir="false" />
@@ -41,22 +76,28 @@
       <change afterPath="$PROJECT_DIR$/target/classes/templates/pay/success.ftl" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/templates/product/index.ftl" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/templates/product/list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/mapper/ProductCategoryMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/repository/SellerInfoRepositoryTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/service/impl/PayServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/service/impl/PushMessageServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/service/impl/SellerServiceImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sell.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/config/WechatConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/config/WechatConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/SellApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/SellApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/config/WebSocketConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/config/WebSocketConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/controller/BuyerProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/controller/BuyerProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/controller/SellerProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/controller/SellerProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/controller/WechatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/controller/WechatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/entity/OrderDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/enums/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/properties/WechatProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/properties/WechatProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/exception/SellException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/exception/SellException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/handler/SellExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/handler/SellExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/vo/ProductInfoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/vo/ProductInfoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/vo/ProductVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/vo/ProductVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/vo/ResultVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/vo/ResultVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/order/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/order/list.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sell.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/BuyerProductConroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/BuyerProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/SellApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/SellApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/controller/BuyerProductConroller.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/dto/OrderDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/dto/OrderDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/entity/OrderDetail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/entity/OrderMaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/entity/OrderMaster.class" afterDir="false" />
@@ -70,6 +111,9 @@
       <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/ProductInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/ProductInfoService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/OrderServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/ProductInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/service/impl/ProductInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/vo/ProductInfoVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/vo/ProductInfoVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/vo/ProductVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/vo/ProductVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/vo/ResultVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zhangbiao/sell/vo/ResultVO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/sell.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/service/impl/OrderServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/service/impl/OrderServiceImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/service/impl/ProductInfoServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/zhangbiao/sell/service/impl/ProductInfoServiceImplTest.class" afterDir="false" />
@@ -181,14 +225,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.zhangbiao.sell.mapper" />
       <recent name="co.zhangbiao.sell.service.impl" />
       <recent name="co.zhangbiao.sell.repository" />
       <recent name="co.zhangbiao.sell.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\idea-workspace\sell\src\main\resources\static" />
-      <recent name="E:\workspace\idea-workspace\sell\src\main\resources\api" />
-      <recent name="E:\workspace\idea-workspace\sell\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.zhangbiao.sell.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\idea-workspace\sell\src\main\resources\static" />
@@ -198,18 +241,20 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="co.zhangbiao.sell.SellApplicationTests" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="co.zhangbiao.sell.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea-workspace\sell\src\main\resources\static" />
+      <recent name="E:\workspace\idea-workspace\sell\src\main\resources\api" />
+      <recent name="E:\workspace\idea-workspace\sell\src\main\resources" />
     </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
       <expand>
         <path>
-          <item name="Found 26 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 28 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 26 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 28 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="sell" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
@@ -233,17 +278,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductInfoServiceImplTest.onSale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductCategoryMapperTest.findByCategoryType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sell" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="co.zhangbiao.sell.service.impl.*" />
+          <option name="PATTERN" value="co.zhangbiao.sell.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.impl.ProductInfoServiceImplTest" />
-      <option name="METHOD_NAME" value="onSale" />
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.mapper" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.mapper.ProductCategoryMapperTest" />
+      <option name="METHOD_NAME" value="findByCategoryType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCategoryMapperTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.mapper" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.mapper.ProductCategoryMapperTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCategoryMapperTest.selectByCategoryType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.zhangbiao.sell.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.mapper" />
+      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.mapper.ProductCategoryMapperTest" />
+      <option name="METHOD_NAME" value="selectByCategoryType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,38 +337,6 @@
       <option name="PACKAGE_NAME" value="co.zhangbiao.sell.service.impl" />
       <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.service.impl.PushMessageServiceImplTest" />
       <option name="METHOD_NAME" value="orderStatus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SellerInfoRepositoryTest.findByOpenid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.zhangbiao.sell.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.repository" />
-      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.repository.SellerInfoRepositoryTest" />
-      <option name="METHOD_NAME" value="findByOpenid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SellerInfoRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sell" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.zhangbiao.sell.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="co.zhangbiao.sell.repository" />
-      <option name="MAIN_CLASS_NAME" value="co.zhangbiao.sell.repository.SellerInfoRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -325,20 +370,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.OrderServiceImplTest.create" />
-      <item itemvalue="JUnit.ProductInfoServiceImplTest.onSale" />
-      <item itemvalue="JUnit.SellerInfoRepositoryTest.save" />
-      <item itemvalue="JUnit.SellerInfoRepositoryTest.findByOpenid" />
       <item itemvalue="JUnit.SellerServiceImplTest.findSellerInfoByOpenid" />
       <item itemvalue="JUnit.PushMessageServiceImplTest.orderStatus" />
       <item itemvalue="Spring Boot.SellApplication" />
+      <item itemvalue="JUnit.ProductCategoryMapperTest.insert" />
+      <item itemvalue="JUnit.ProductCategoryMapperTest.findByCategoryType" />
+      <item itemvalue="JUnit.ProductCategoryMapperTest.selectByCategoryType" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductCategoryMapperTest.selectByCategoryType" />
+        <item itemvalue="JUnit.ProductCategoryMapperTest.findByCategoryType" />
+        <item itemvalue="JUnit.ProductCategoryMapperTest.insert" />
         <item itemvalue="JUnit.PushMessageServiceImplTest.orderStatus" />
         <item itemvalue="JUnit.SellerServiceImplTest.findSellerInfoByOpenid" />
-        <item itemvalue="JUnit.SellerInfoRepositoryTest.findByOpenid" />
-        <item itemvalue="JUnit.SellerInfoRepositoryTest.save" />
-        <item itemvalue="JUnit.ProductInfoServiceImplTest.onSale" />
       </list>
     </recent_temporary>
   </component>
@@ -392,6 +437,7 @@
       <workItem from="1583386894928" duration="6173000" />
       <workItem from="1583460980281" duration="13763000" />
       <workItem from="1583476133575" duration="11450000" />
+      <workItem from="1583558831501" duration="11330000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1578484244893</created>
@@ -456,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583469767309</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1583558889731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583558889731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,95 +554,95 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="513" y="34" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583304080419" />
-    <state x="572" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1583483922400">
+    <state x="572" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1583564356791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="407" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579413841035" />
-    <state x="572" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583483922400" />
-    <state x="536" y="10" key="#xdebugger.evaluate" timestamp="1583478328404">
+    <state x="572" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583564356791" />
+    <state x="536" y="10" key="#xdebugger.evaluate" timestamp="1583562392730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="381" y="7" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1579409687672" />
-    <state x="536" y="10" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1583478328404" />
+    <state x="536" y="10" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1583562392730" />
     <state x="633" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583138474542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="633" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1583138474542" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1583469764182">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1583558885765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579504647130" />
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583469764182" />
-    <state width="665" height="826" key="DebuggerActiveHint" timestamp="1583483965324">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583558885765" />
+    <state width="665" height="826" key="DebuggerActiveHint" timestamp="1583562442038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="473" height="578" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1579411567565" />
-    <state width="665" height="826" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1583483965324" />
+    <state width="665" height="826" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1583562442038" />
     <state x="580" y="70" key="FileChooserDialogImpl" timestamp="1583224502625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="413" y="49" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578565981431" />
     <state x="580" y="70" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583224502625" />
-    <state width="1867" height="307" key="GridCell.Tab.0.bottom" timestamp="1583489147412">
+    <state width="1867" height="307" key="GridCell.Tab.0.bottom" timestamp="1583570766368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="319" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579511433803" />
-    <state width="1867" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583489147412" />
-    <state width="1867" height="307" key="GridCell.Tab.0.center" timestamp="1583489147411">
+    <state width="1867" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766368" />
+    <state width="1867" height="307" key="GridCell.Tab.0.center" timestamp="1583570766368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="319" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579511433802" />
-    <state width="1867" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583489147411" />
-    <state width="1867" height="307" key="GridCell.Tab.0.left" timestamp="1583489147411">
+    <state width="1867" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766368" />
+    <state width="1867" height="307" key="GridCell.Tab.0.left" timestamp="1583570766368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="319" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579511433802" />
-    <state width="1867" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583489147411" />
-    <state width="1867" height="307" key="GridCell.Tab.0.right" timestamp="1583489147412">
+    <state width="1867" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766368" />
+    <state width="1867" height="307" key="GridCell.Tab.0.right" timestamp="1583570766368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="319" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579511433802" />
-    <state width="1867" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583489147412" />
-    <state width="1867" height="307" key="GridCell.Tab.1.bottom" timestamp="1583489147412">
+    <state width="1867" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766368" />
+    <state width="1867" height="307" key="GridCell.Tab.1.bottom" timestamp="1583570766369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="319" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579511433803" />
-    <state width="1867" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583489147412" />
-    <state width="1867" height="307" key="GridCell.Tab.1.center" timestamp="1583489147412">
+    <state width="1867" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766369" />
+    <state width="1867" height="307" key="GridCell.Tab.1.center" timestamp="1583570766368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="319" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1579511433803" />
-    <state width="1867" height="307" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583489147412" />
-    <state width="1867" height="307" key="GridCell.Tab.1.left" timestamp="1583489147412">
+    <state width="1867" height="307" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766368" />
+    <state width="1867" height="307" key="GridCell.Tab.1.left" timestamp="1583570766368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="319" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1579511433803" />
-    <state width="1867" height="307" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583489147412" />
-    <state width="1867" height="307" key="GridCell.Tab.1.right" timestamp="1583489147412">
+    <state width="1867" height="307" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766368" />
+    <state width="1867" height="307" key="GridCell.Tab.1.right" timestamp="1583570766368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="319" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1579511433803" />
-    <state width="1867" height="307" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583489147412" />
-    <state width="1867" height="307" key="GridCell.Tab.2.bottom" timestamp="1583483373529">
+    <state width="1867" height="307" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766368" />
+    <state width="1867" height="307" key="GridCell.Tab.2.bottom" timestamp="1583570766369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="224" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579419208124" />
-    <state width="1867" height="307" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583483373529" />
-    <state width="1867" height="307" key="GridCell.Tab.2.center" timestamp="1583483373529">
+    <state width="1867" height="307" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766369" />
+    <state width="1867" height="307" key="GridCell.Tab.2.center" timestamp="1583570766369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="224" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1579419208124" />
-    <state width="1867" height="307" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583483373529" />
-    <state width="1867" height="307" key="GridCell.Tab.2.left" timestamp="1583483373529">
+    <state width="1867" height="307" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766369" />
+    <state width="1867" height="307" key="GridCell.Tab.2.left" timestamp="1583570766369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="224" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1579419208124" />
-    <state width="1867" height="307" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583483373529" />
-    <state width="1867" height="307" key="GridCell.Tab.2.right" timestamp="1583483373529">
+    <state width="1867" height="307" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766369" />
+    <state width="1867" height="307" key="GridCell.Tab.2.right" timestamp="1583570766369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1313" height="224" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1579419208124" />
-    <state width="1867" height="307" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583483373529" />
+    <state width="1867" height="307" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583570766369" />
     <state width="264" height="550" key="HiddenNamespacesPopup" timestamp="1578565933014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -602,26 +655,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="336" key="MavenRunHelper.GoalEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583465527370" />
-    <state x="146" y="0" key="SettingsEditor" timestamp="1583488130232">
+    <state x="146" y="0" key="SettingsEditor" timestamp="1583562765020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="71" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579411395647" />
-    <state x="146" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583488130232" />
-    <state x="246" y="51" key="Vcs.Push.Dialog.v2" timestamp="1583469775491">
+    <state x="146" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583562765020" />
+    <state x="246" y="51" key="Vcs.Push.Dialog.v2" timestamp="1583558897056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="175" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582769124722" />
-    <state x="246" y="51" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583469775491" />
+    <state x="246" y="51" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583558897056" />
     <state x="443" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1583558832239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="315" y="151" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582768805366" />
     <state x="443" y="216" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583558832239" />
-    <state x="592" y="53" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583483142658">
+    <state x="592" y="53" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583561200430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="421" y="37" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1578664805543" />
-    <state x="592" y="53" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583483142658" />
+    <state x="592" y="53" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583561200430" />
     <state x="352" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583465575467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -634,10 +687,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="360" y="128" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1582768988082" />
-    <state x="368" y="0" width="1181" height="1038" key="search.everywhere.popup" timestamp="1583486196435">
+    <state x="368" y="0" width="1181" height="1038" key="search.everywhere.popup" timestamp="1583570066132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="262" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579412762445" />
-    <state x="368" y="0" width="1181" height="1038" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583486196435" />
+    <state x="368" y="0" width="1181" height="1038" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583570066132" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/co/zhangbiao/sell/controller/BuyerProductController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
