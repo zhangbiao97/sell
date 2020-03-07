@@ -10,6 +10,10 @@ spring:
     show-sql: true
   jackson:
     default-property-inclusion: non_null
+  redis:
+    host: 123.56.9.64
+    port: 6379
+    password: zhangbiao
 server:
   context-path: /sell
 wechat:
@@ -19,3 +23,10 @@ wechat:
   mchId: 1483469312
   mchKey: 098F6BCD4621D373CADE4E832627B4F6
   keyPath: C:\Users\zhangbiao\Desktop\h5.p12
+  templateMap:
+    orderStatus: NSy7TtO5vw3CnenEyWAAGoVbMSGMQHNBgAuljBfU8wA
+project:
+  url:
+    wechatMpAuthorize: http://zhangbiao.natapp1.cc
+    wechatOpenAuthorize: http://zhangbiao.natapp1.cc
+    sell: http://zhangbiao.natapp1.cc

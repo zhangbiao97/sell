@@ -1,9 +1,12 @@
 package co.zhangbiao.sell.entity;
 
+import org.hibernate.annotations.DynamicUpdate;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
 
+@DynamicUpdate
 @Table(name = "order_detail")
 @Entity
 public class OrderDetail {

@@ -12,9 +12,7 @@ import co.zhangbiao.sell.enums.ResultEnum;
 import co.zhangbiao.sell.exception.SellException;
 import co.zhangbiao.sell.repository.OrderDetailRepository;
 import co.zhangbiao.sell.repository.OrderMasterRepository;
-import co.zhangbiao.sell.service.OrderService;
-import co.zhangbiao.sell.service.PayService;
-import co.zhangbiao.sell.service.ProductInfoService;
+import co.zhangbiao.sell.service.*;
 import co.zhangbiao.sell.utils.KeyUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -53,6 +51,12 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private PayService payService;
 
+    @Autowired
+    private PushMessageService pushMessageService;
+
+    @Autowired
+    private WebSocket webSocket;
+
     @Transactional(rollbackFor = SellException.class)
     @Override
     public OrderDTO create(OrderDTO orderDTO) {
@@ -90,6 +94,9 @@ public class OrderServiceImpl implements OrderService {
                 .map(e -> new CartDTO(e.getProductId(), e.getProductQuantity()))
                 .collect(Collectors.toList());
         productInfoService.decreaseStock(cartDTOS);
+
+        //发送WebSocket消息
+        webSocket.sendMessage(orderMaster.getOrderId());
         return orderDTO;
     }
 
@@ -168,6 +175,8 @@ public class OrderServiceImpl implements OrderService {
             logger.error("【完结订单】更新失败, orderMaster={}", orderMaster);
             throw new SellException(ResultEnum.ORDER_UPDATE_FAIL);
         }
+        // 订单完结推送消息
+        pushMessageService.orderStatus(orderDTO);
         return orderDTO;
     }
 
